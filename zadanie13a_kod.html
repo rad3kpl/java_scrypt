@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>zadanie13_kod</title>
+    <style>
+        textarea{
+            width: 100%;
+            height: 400px; 
+        }
+    </style>
+</head>
+<body>
+    <textarea>
+        <!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Zadanie13a</title>
+</head>
+	<body>
+		<div style="color:red;font-size:50px;">
+			<script language="JavaScript">
+				var n = prompt("c =", "");
+				var m = prompt("b =", "");
+				var c_kob = parseFloat(n);
+				var b = parseFloat(m);
+				var a = (Math.sqrt(c_kob * c_kob - b * b)).toFixed(2);
+				var obw1 = a + b + c_kob;
+				var obw = parseFloat(obw1);
+				obw = obw.toFixed(2);
+				var pole = ((a * b) / 2).toFixed(2);
+				var sin_Beta = (b / c_kob).toFixed(2);
+				var beta = (Math.sin(sin_Beta) * 180 / 3.14).toFixed(2);
+				var alfa = (90 - beta).toFixed(2);
+				document.write(" a =" + a + "obw =" + obw + " pole= " + pole + " beta = " + beta + " alfa =" + alfa);
+			</script>
+		</div>
+	</body>
+</html>
+    </textarea>
+</body>
+</html>
