@@ -1,0 +1,30 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>zadanie78</title>
+    <script>
+        var a_kob=prompt("podaj liczbę a: ","");
+        var b_kob=prompt("podaj liczbę b: ","");
+        var px=60
+        if (parseInt(a_kob)<parseInt(b_kob)){
+            for(var a=parseInt(a_kob)+1;a<parseInt(b_kob);a++){
+                if (a%2==1){
+                    document.write('<span style = "color: green; font-size: 46px">'+ a +" "+'</ span>');
+                }
+            }
+        }
+        else if (parseInt(a_kob)>parseInt(b_kob)){
+            for(var a=parseInt(a_kob)-1;a>parseInt(b_kob);a--){
+                if (a%2==1){
+                    document.write('<span style = "color: blue; font-size: 23px">'+ a +" "+'</ span>');
+                }
+            }
+        }
+        else if (a_kob==b_kob){
+            if (confirm("Wybrano dwie te same liczby!"));
+        }
+    </script>
+</head>
+<body>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>zadanie79</title>
+    <script>
+
+        var R_kob=prompt("podaj promień R","");
+        var promien_kob=parseFloat(R_kob);
+        var licznik=0;
+
+        for (var i_kob = 0; i_kob<promien_kob; i_kob++){
+            for (var j_kob = 1; j_kob<=promien_kob; j_kob++){
+                if ((i_kob*i_kob + j_kob*j_kob) <= promien_kob*promien_kob){
+                    licznik++;
+                }
+            }
+        }
+        licznik = licznik * 4 + 1;
+
+        document.write("W kole o promieniu R="+ promien_kob + ", znajduje się pkt=" +licznik,"")
+    </script>
+</head>
+<body>
+</body>
+</html>
