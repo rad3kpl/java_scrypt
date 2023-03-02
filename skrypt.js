@@ -146,6 +146,30 @@ function Kobierski_zadanie71_kod()
 {
     window.open("zadanie71_kod.html","Kobierski_zadanie71_kod","toolbar=no,directories=no,menubar=no,height=700,width=700,top=700,left=1000");
 }
+function Kobierski_zadanie72()
+{
+    window.open("zadanie72.html","Kobierski_zadanie72","toolbar=no,directories=no,menubar=no,height=700,width=700,top=700,left=1000");
+}
+function Kobierski_zadanie72_kod()
+{
+    window.open("zadanie72_kod.html","Kobierski_zadanie72_kod","toolbar=no,directories=no,menubar=no,height=700,width=700,top=700,left=1000");
+}
+function Kobierski_zadanie73()
+{
+    window.open("zadanie73.html","Kobierski_zadanie73","toolbar=no,directories=no,menubar=no,height=700,width=700,top=700,left=1000");
+}
+function Kobierski_zadanie73_kod()
+{
+    window.open("zadanie73_kod.html","Kobierski_zadanie73_kod","toolbar=no,directories=no,menubar=no,height=700,width=700,top=700,left=1000");
+}
+function Kobierski_zadanie74()
+{
+    window.open("zadanie74.html","Kobierski_zadanie74","toolbar=no,directories=no,menubar=no,height=700,width=700,top=700,left=1000");
+}
+function Kobierski_zadanie74_kod()
+{
+    window.open("zadanie74_kod.html","Kobierski_zadanie74_kod","toolbar=no,directories=no,menubar=no,height=700,width=700,top=700,left=1000");
+}
 function Kobierski_zadanie75()
 {
     window.open("zadanie75.html","Kobierski_zadanie75","toolbar=no,directories=no,menubar=no,height=700,width=700,top=700,left=1000");
