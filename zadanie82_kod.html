@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title>zadanie82_kod</title>
+  <style>
+    textarea{
+      width: 100%;
+      height: 400px;
+    }
+  </style>
+</head>
+  <body>
+    <textarea>
+        <html> 
+            <head> 
+            <title> Zadanie 82</title>
+             <script language="JavaScript">
+             function pushbutton() {
+             alert("Czesc !");}
+             </script>
+            </head> 
+            <body> 
+            <h1 style="color: red;">Kobierski</h1>
+            <h3 style="color: green;"> dzis = new Date()-->otwórz obiekt data<br>
+                dzis = dzis.getHours()-->pobierz godzine z obiektu<br>
+                dzis = dzis.getMinutes()-->pobierz minute z obiektu<br>
+                dzis = dzis.getMonth()+1-->pobierz miesiąc z obiektu<br>
+                dzis = dzis.getDate()-->pobierz date z obiektu<br>
+                dzis = dzis.getFullYear()-->pobierz rok z obiektu </h3>
+            Ostatnio zmodyfikowany 
+            <script language="LiveScript">
+             document.write(document.lastModified,"<br>")
+            </script>
+            <form>
+             <input type="button" name="Button1" value="Naciśnij mnie" onclick="pushbutton()">
+            </form> 
+            <script language="JavaScript">
+             dzis = new Date()
+             document.write("<br>Aktualny czas : ",dzis.getHours(),":",dzis.getMinutes())
+             document.write('<br>Aktualna data : <font color="red" size="1cm">'+dzis.getDate()+'</font>:<font color="green" size="1cm">'+dzis.getMonth()+1+'</font>:<   font color="blue" size="1cm">'+dzis.getFullYear())+'</font';
+            </script>
+            </body> 
+            </html>
+	</textarea>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script language="JavaScript">
+    function Przycisk1_Kobierski()
+    {
+    pokaz1.innerHTML="Ostatnio zmodyfikowany : "+document.lastModified;
+    }
+    function Przycisk2_Kobierski()
+    {
+    pokaz2.innerHTML="Aktualna data : "+document.getMonth;
+    }
+    function Przycisk3_Kobierski()
+    {
+    pokaz3.innerHTML="Aktualna godzina : "+document.getHour;
+    }
+
+    </script>
+</head>
+<body>
+    <form>
+        <a onclick="Przycisk1_Kobierski(' ')"><img src="odm1.png" alt="Przycisk1" border="0"
+        onmouseover="this.src = 'odm2.png'" onmouseout="this.src ='odm1.png'" /></a>
+        <a onclick="Przycisk2_Kobierski(' ')"><img src="ad1.png" alt="Przycisk2" border="0"
+        onmouseover="this.src = 'ad2.png'" onmouseout="this.src ='ad1.png'" /></a>
+        <a onclick="Przycisk3_Kobierski(' ')"><img src="ag1.png" alt="Przycisk3" border="0"
+        onmouseover="this.src = 'ag2.png'" onmouseout="this.src ='ag1.png'" /></a>
+    </form>
+    <table>
+        <script language="JavaScript">
+            dzis = new Date()
+            document.write(document.lastModified,"<br>")
+            document.write("<br>Aktualna data : ",dzis.getMonth()+1,"/",dzis.getDate(),"/",dzis.getFullYear());
+            document.write("<br>Aktualny czas : ",dzis.getHours(),":",dzis.getMinutes())
+           </script>           
+    </table>
+</body>
+</html>

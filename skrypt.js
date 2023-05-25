@@ -210,3 +210,51 @@ function Kobierski_zadanie79_kod()
 {
     window.open("zadanie79_kod.html","Kobierski_zadanie79_kod","toolbar=no,directories=no,menubar=no,height=700,width=700,top=700,left=1000");
 }
+function Kobierski_zadanie82()
+{
+    window.open("zadanie82.html","Kobierski_zadanie82","toolbar=no,directories=no,menubar=no,height=700,width=700,top=700,left=1000");
+}
+function Kobierski_zadanie82_kod()
+{
+    window.open("zadanie82_kod.html","Kobierski_zadanie82_kod","toolbar=no,directories=no,menubar=no,height=700,width=700,top=700,left=1000");
+}
+function Kobierski_zadanie83()
+{
+    window.open("zadanie83.html","Kobierski_zadanie83","toolbar=no,directories=no,menubar=no,height=700,width=700,top=700,left=1000");
+}
+function Kobierski_zadanie83_kod()
+{
+    window.open("zadanie83_kod.html","Kobierski_zadanie83_kod","toolbar=no,directories=no,menubar=no,height=700,width=700,top=700,left=1000");
+}
+function Kobierski_zadanie84()
+{
+    window.open("zadanie84.html","Kobierski_zadanie84","toolbar=no,directories=no,menubar=no,height=700,width=700,top=700,left=1000");
+}
+function Kobierski_zadanie84_kod()
+{
+    window.open("zadanie84_kod.html","Kobierski_zadanie84_kod","toolbar=no,directories=no,menubar=no,height=700,width=700,top=700,left=1000");
+}
+function Kobierski_zadanie85()
+{
+    window.open("zadanie85.html","Kobierski_zadanie85","toolbar=no,directories=no,menubar=no,height=700,width=700,top=700,left=1000");
+}
+function Kobierski_zadanie85_kod()
+{
+    window.open("zadanie85_kod.html","Kobierski_zadanie85_kod","toolbar=no,directories=no,menubar=no,height=700,width=700,top=700,left=1000");
+}
+function Kobierski_zadanie86()
+{
+    window.open("zadanie86.html","Kobierski_zadanie86","toolbar=no,directories=no,menubar=no,height=700,width=700,top=700,left=1000");
+}
+function Kobierski_zadanie86_kod()
+{
+    window.open("zadanie86_kod.html","Kobierski_zadanie86_kod","toolbar=no,directories=no,menubar=no,height=700,width=700,top=700,left=1000");
+}
+function Kobierski_zadanie87()
+{
+    window.open("zadanie87.html","Kobierski_zadanie87","toolbar=no,directories=no,menubar=no,height=700,width=700,top=700,left=1000");
+}
+function Kobierski_zadanie87_kod()
+{
+    window.open("zadanie87_kod.html","Kobierski_zadanie87_kod","toolbar=no,directories=no,menubar=no,height=700,width=700,top=700,left=1000");
+}
